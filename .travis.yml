@@ -1,14 +1,9 @@
 sudo: required
 
-language: php
-
 services:
   - docker
 
-before_install:
-  - docker build -t ypereirareis/symfony-installer .
-
 script:
-  - docker run -it --rm -u $(id -u):$(id -g) -v $(pwd):/app ypereirareis/symfony-installer
+  - tests.sh
 
 
