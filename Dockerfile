@@ -1,4 +1,4 @@
-FROM php:latest
+FROM php:7.1.5-fpm-alpine
 
 MAINTAINER Yannick Pereira-Reis <yannick.pereira.reis@gmail.com>
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-LATEST_SF_VERSION=${LATEST_SF_VERSION:-"3.0"}
+LATEST_SF_VERSION=${LATEST_SF_VERSION:-"3.3"}
 IMAGE_NAME="ypereirareis/symfony-installer"
 DOCKER_CMD="docker run -it --rm -u $(id -u):$(id -g) -v $(pwd):/app ${IMAGE_NAME}"
 
